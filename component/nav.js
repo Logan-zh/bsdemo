@@ -133,10 +133,12 @@ function Nav(){
                 <h3>[ 行政本館 ]</h3>
                 <table className="table table-sm text-center">
                     <thead className="alert-info">
-                        <th className="border-info">房型</th>
-                        <th className="border-info">平日</th>
-                        <th className="border-info">假日</th>
-                        <th className="border-info">連續國定假日</th>
+                        <tr>
+                            <th className="border-info">房型</th>
+                            <th className="border-info">平日</th>
+                            <th className="border-info">假日</th>
+                            <th className="border-info">連續國定假日</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -161,11 +163,13 @@ function Nav(){
                 </table>
                 <h3>[ 雙幕川館 ]</h3>
                 <table className="table text-center">
-                    <thead className="alert-info">
-                        <th className="border-info">房型</th>
-                        <th className="border-info">平日</th>
-                        <th className="border-info">假日</th>
-                        <th className="border-info">連續國定假日</th>
+                <thead className="alert-info">
+                        <tr>
+                            <th className="border-info">房型</th>
+                            <th className="border-info">平日</th>
+                            <th className="border-info">假日</th>
+                            <th className="border-info">連續國定假日</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -184,11 +188,13 @@ function Nav(){
                 </table>
                 <h3>[ 繪影湯屋 ]</h3>
                 <table className="table text-center">
-                    <thead className="alert-info">
-                        <th className="border-info">房型</th>
-                        <th className="border-info">平日</th>
-                        <th className="border-info">假日</th>
-                        <th className="border-info">連續國定假日</th>
+                <thead className="alert-info">
+                        <tr>
+                            <th className="border-info">房型</th>
+                            <th className="border-info">平日</th>
+                            <th className="border-info">假日</th>
+                            <th className="border-info">連續國定假日</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>

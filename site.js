@@ -11,10 +11,13 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <p>OK!</p>
-        <p>{this.state.value}</p>
+        {Head()}
         {Carousel()}
         {Nav()}
+        {Facility()}
+        {Collapse()}
+        {Maps()}
+        {Contact()}
         {Footer()}
       </div>
     );
